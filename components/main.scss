@@ -10,8 +10,15 @@ $darkGreen: #0b4d3c;
 
 //setups
 @import url('https://fonts.googleapis.com/css2? family=Alegreya+Sans:ital,wght@0,300;0,400;1,400&display=swap');
-@import "layout";
+@import "./layout";
 
 // components
-@import "./components/_hero.scss";
-@import "./components/_/header.scss";
+@import "./hero";
+@import "./header";
+@import "./features";
+@import "./benefits";
+@import "./button";
+@import "./feature";
+@import "./headline";
+@import "./reviews__display";
+@import "./section";
